@@ -1,4 +1,5 @@
 #!/usr/bin/env groovy
+
 node{
 stage('Check out Code, Prepare environment') {
             parallel (
@@ -17,5 +18,5 @@ stage('Check out Code, Prepare environment') {
             sh "npm -v"
 	    sh "gem list"
         } 
- 
+}
 
