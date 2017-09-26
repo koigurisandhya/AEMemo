@@ -1,6 +1,7 @@
 #!/usr/bin/env groovy
 
 node{
+	
 stage('Check out Code, Prepare environment') {
             parallel (
                 "getEnvironment":{
