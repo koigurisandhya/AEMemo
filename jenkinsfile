@@ -1,1 +1,5 @@
-sh 'echo $PATH'
+node{
+	stage('Check out Code, Prepare environment'){
+		sh 'echo $PATH'
+} 
+}
